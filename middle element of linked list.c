@@ -5,7 +5,7 @@ struct node
 	int data;
 	struct node*next;
 };
-struct node*head,*prevnode,*temp,*nextnode,*fast,*slow;
+struct node*head,*temp,*fast,*slow;
 void middle_element()
 {
 	slow=fast=head;
