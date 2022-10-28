@@ -62,6 +62,6 @@ int main()
 	if(res==NULL)
 	   printf("\nloop not found");
 	else
-	printf("\n loop found and starting node is %d ",res->data);
+	printf("\nloop found and starting node is %d ",res->data);
 	return 0;
 }
