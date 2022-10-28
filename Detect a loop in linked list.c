@@ -67,6 +67,6 @@ int main()
 	   printf("\nloop found");
 	else
 	printf("\nnot found");
-	printf("\n%d",countnodes(head));
+	printf("\nLength of the loop is %d",countnodes(head));
 	return 0;
 }
