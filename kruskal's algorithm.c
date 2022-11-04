@@ -2,7 +2,7 @@
 #include<stdlib.h>
 #include<limits.h>
 int i,j,k,a,b,u,v,n,edgecount=1;
-int min,mincost=0,cost[9][9],parent[9];
+int min,mincost=0,cost[10][10],parent[10];
 int find(int i)
 {
     while(parent[i])
